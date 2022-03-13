@@ -37,7 +37,7 @@ var reviews = [
     {
         id: 4,
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, quidem praesentium nam molestias, quis quaerat aliquid saepe consequatur, iusto minima voluptatem dolores corrupti. Est pariatur doloremque minima earum fugiat illo. Quisquam consequatur velit, tempore autem deserunt officia, quaerat animi earum eaque dolorem sint quasi asperiores corrupti quia aliquam dolorum quam distinctio molestiae non porro nemo vitae. Impedit saepe libero, eius harum beatae blanditiis, dolorum iure et ipsam neque, accusamus nemo explicabo laudantium. Iste reiciendis numquam quaerat ex, facilis velit veritatis.",
-        img: "images/rocket_logo.svg",
+        img: "Images/rocket_logo.svg",
     },
   ];
   
