@@ -149,7 +149,7 @@ header ul li a:hover, header ul li a.active{
 }
 
 
-@media (max-width: 800px){
+@media (max-width: 750px){
     body{
         display: flex;
         flex-wrap: wrap;
@@ -166,16 +166,126 @@ header ul li a:hover, header ul li a.active{
     .main-body1 {
         display: flex;
         flex-wrap: wrap;
-        width: 33%;
-        margin-left: 50px;
+        width: 30%;
+        margin-left: 10px;
         margin-top: 50%;
         cursor: pointer;
     }
+
     .main-body{
         width: 800px;
         height: 300px;
         border: 1px solid transparent;
         border-radius: 50%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #flex-box-h1{
+        width: 305px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 0px;
+    }
+    #flex-box-p{
+    margin-top: -260px;
+    display: flex;
+        flex-wrap: wrap;
+    }
+
+    #flex-box-circle{
+        margin-top: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 80px;
+    }
+    #myCanvas{
+        margin-left: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #myCanvas-2{
+        margin-left: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #big-card{
+        display: none;
+    }
+    .counter-up{
+        display: none;
+    }
+    #product-items{
+        margin-left: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 20 px;
+        height: 1970px;
+        flex-basis: content;
+    }
+    #product-items h1{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 80px;
+    }
+    .product_paragraph1, .product_paragraph2, .product_paragraph3, .product_paragraph4{
+        display: none;
+    }
+    /* About Us */
+    #about-sub{
+        width: 300px;
+        height: 390px;
+        margin-left: 50px;
+        overflow: hidden;
+    }
+    .slider{
+        margin-left: -120px;
+    }
+    .manual-btn{
+        display: none;
+    }
+    #desc-h1 {
+        font-size: 30px;
+        margin-left: 130px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: content;
+    }
+    #about-book{
+        width: 500px;
+        height: 600px;
+        margin-left: 20px;
+        
+
+    }
+    #img-basis{
+        display: none;
+    }
+    #description{
+        margin-left: 90px;
+        width: 70%;
+        border-right: transparent;
+    }
+
+    #sign-up{
+        margin-left: -280px;
+    }
+    #sign-up_form{
+        width: 500px;
+        height: 580px;
+    }
+    #sign-up_form h1{
+        margin-left: 60px;
+        font-size: 30px;
+    }
+    #sign-up_form label{
+        margin-left: -170px;
+    }
+    #sign-up_form input{
+        width: 190px;
+        height: 40px;
+    }
+    #submit_btn{
+        margin-left: -95px;
     }
     
 }
@@ -700,7 +810,7 @@ section{
 
 /* CONTACT US PAGE */
 /* SIGN-UP FORM */
-
+/*
 .sign-up_form{
     width: 60%;
     height: 540px;
@@ -812,6 +922,71 @@ input[type=submit]:hover {
 #sign_up{
    margin-left: 250px;
 }
+*/
+.sign-up_form{
+    width: 60%;
+    height: 540px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: rgb(245, 244, 244,0.2);
+    margin-left: 300px;
+}
+.sign-up_form h3{
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: rgb(73, 12, 129);
+    cursor: pointer;
+}
+#sign-up{
+    margin-top: 200px;
+}
+form input{
+    display: block;
+    margin-left: 200px;
+    width: 500px;
+    height: 50px;
+    border: 1px solid transparent;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+form textarea{
+    display: block;
+    margin-left: 200px;
+    width: 500px;
+    height: 150px;
+    border: 1px solid transparent;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    resize: none;
+}
+form button{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 400px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    background-color: rgba(57, 185, 52, 0.516);
+    font-size: 17px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #2b1055;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+
+
+
 
 
 /* ---------------------------------------------------- */
@@ -1089,4 +1264,135 @@ input[type=submit]:hover {
     background: rgb(0, 255, 128);
     color: black;
     transition: 3s;
+  }
+
+
+/* Footer Area */
+  .footer{
+      width: 100%;
+      height: 250px;
+      border: 1px solid transparent;
+      background-color: #e4ed64ad; 
+  }
+.footer h1 , .footer h4{
+    margin-left: 100px;
+    font-size: 20px;
+}
+.footer-heading {
+   padding-top: 50px;
+}
+.span-elements{ 
+    font-size: 15px;
+    float: right;
+    margin-right: 800px;
+    margin-top: -60px;
+}
+.span-elements-credentials{
+    font-size: 15px;
+    float: right;
+    margin-right: -550px;
+    margin-top: -60px;
+}
+span a{
+    text-decoration: none;
+    color: rgb(6, 61, 43);
+    font-weight: bold;
+}
+
+
+/* ----------------------------------- */
+/* =================================== */
+/* TEST REVEAL ZONE */
+/* Services Webpage */
+
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .service-container {
+    max-width: 1100px;
+    margin-left: 200px;
+    margin-top: 150px;
+    overflow: auto;
+    padding: 0 2rem;
+  }
+  
+  .service-header {
+    height: 55vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .service-header h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+    margin-top: 100px;
+    color: rgb(130, 5, 255);
+  }
+  
+  .service-header h1 span {
+    color: #e70e12;
+  }
+  
+  .service-header p {
+    font-size: 2rem;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    background: #f1f1f1;
+    margin-bottom: 2rem;
+  }
+  
+  .card h3 {
+    margin-bottom: 2rem;
+  }
+  
+  .card img {
+    height: 400px;
+  }
+  
+  .card > div {
+    padding: 2rem;
+  }
+  
+  .card:nth-child(even) img {
+    order: 2;
+  }
+  
+  
+  .btn {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    padding: 0.8rem 1.8rem;
+    margin-top: 2rem;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  @media(max-width:600px) {
+    .card {
+      display: block;
+    }
+  }
+  
+  header a {
+      margin-top: -20px;
   }

@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style.css"/>
     <link rel="icon" href="Images/backdrop.svg"/>
     <title>Personal Website</title>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
     <header>
@@ -19,8 +22,8 @@
         </ul>
     </header>
     <section id="sign-up">
-        <div class="sign-up_form">
-            <h1>New here? Let's Sign Up</h1>
+        <div class="sign-up_form" id="sign-up_form">
+            <!-- <h1>New here? Let's Sign Up</h1>
             <form id="sign_up">
                 <label for="fName" class="label_design">First Name</label>
                 <input type="text" name="firstName" placeholder="Enter First Name" class="input_design" id="fName">
@@ -41,16 +44,72 @@
                 <input type="password" name="cpassword" placeholder="Confirm Password" class="input_design" id="cpassword">
                 <br/>
                 <input type="submit" placeholder="Submit" name="submit" id="submit_btn">
-                <br/>
+                <br/> -->
+
+
+            <form onsubmit="sendEmail(); reset(); return false;">
+                <h3>Get in Touch with us</h3>
+                <input type="text" id="name" placeholder="Your Name">
+                <input type="email" id="email" placeholder="Your Email">
+                <input type="text" id="phone" placeholder="Your Phone Number">  
+                <textarea id="message" rows="4" placeholder="Drop your message here"></textarea>
+                <button class="submit" id="click">Send</button>
             </form>
         </div>
     </section>
     
 
+
+    <br/>
+      <br/>
+      <br/>
+
+      <div class="footer">
+        <h1 class="footer-heading">Unix Systems <h1>
+        <h4>Innovation for better tomorrow</h4>
+        <div class="span-elements">
+        <span><a href="index.html">Home</a></span>
+        <br/>
+        <span><a href="about.html">About</a></span>
+        <br/>
+        <span><a href="services.html">Services</a></span>
+        <br/>
+        <span><a href="contact.html">Contact Us</a></span>
+        <br/>
+        <span><a href="careers.html">Careers</a></span>
+        <br/>
+        </div>
+
+
+
+        <div class="span-elements-credentials">
+          <span>Unix Systems </span>
+          <br/>
+          <span>A Unit of Innovation Lab </span>
+          <br/>
+          <br/>
+        
+          <span>Regent Gardens, Haryana India</span>
+          <br/>
+          <span>Telengana, Hyderabad</span>
+          <br/>
+          <span>Phone : +91 85124 6521
+            <br/>
+            Email: career@labinnovation.ml
+            <br/>
+            Website: www.unixsystems.com
+          </span>
+          <br/>
+          </div>
+
+
+
+      </div>
     
 
     
-    <script src=""></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="contact.js"></script>
 </body>
 </html>
 
